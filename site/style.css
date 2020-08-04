@@ -6,19 +6,32 @@ body{
 	background-color: #5B84B1FF;
 
 }
-p{
-	margin: auto;
-	border: 1px solid black;
-	width: 90%;
-	height: 350px;
-	font-family: monospace;
-	color: white;
-	background-color: #A52A2A;
+.container{
+ position: relative;
+ top:60px;
+ margin: 15px; 
+}
+.item p{
+ margin-top: 50px;
+  text-align: justify;
+  font-size:100%;
+}
+.item{
+	padding: 25px;
 	position: relative;
-	padding: 5%;
-	border-radius: 10%;
-
-
+	top: 0;
+	border: 3px solid #000;
+	margin: 20px;
+	background-color: #FC766AFF;
+}
+.item-title{
+  position: absolute;
+  top:0;
+  right: 0px;
+  background: green; 
+  padding: 3px 30px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
 
 }
 
@@ -30,11 +43,7 @@ p{
 	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5,
 	.col-xs-6, .col-xs-7, .col-xs-8, .col-lg-9, .col-xs-10, .col-xs-11,.col-xs-12{
 		float: left;
-		border: 10px solid #5B84B1FF;
-		border-radius: 10%;
-		height: 450px;
 		
-		background-color: #FC766AFF;
 	}
 .col-lg-1{
 	width: 8.33%;
@@ -80,11 +89,7 @@ p{
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,
 	.col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11,.col-lg-12{
 		float: left;
-		border: 10px solid #5B84B1FF;
-		border-radius: 10%;
-		height: 450px;
 		
-		background-color: #FC766AFF;
 	}
 .col-lg-1{
 	width: 8.33%;
@@ -130,11 +135,7 @@ p{
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
 	.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11,.col-md-12{
 		float: left;
-		border: 10px solid #5B84B1FF;
-		border-radius: 10%;
-		height: 450px;
 		
-		background-color: #FC766AFF;
 	}
 .col-md-1{
 	width: 8.33%;
@@ -176,15 +177,24 @@ p{
 }
 }
 
-h3{
-	text-align: right;
-	font-family: fantasy;
-	position: relative;
-	right: 10%;
-	font-weight: 200;
-	text-decoration: underline;
-}
 h1{
 	font-family: fantasy;
 	text-decoration: underline;
+	text-align: center;
+}
+#item-1{
+	background-color: orange;
+}
+#item-2{
+	background-color: yellow;
+}
+
+#item-3{
+	background-color: blue;
+}
+#item-4{
+	background-color: grey;
+}
+#item-5{
+	background-color: silver;
 }
